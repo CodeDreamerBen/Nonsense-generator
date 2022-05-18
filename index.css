@@ -1,0 +1,15 @@
+body {
+    background-color: #fefcdd;
+    height: 0px;
+}
+.content {
+    display: flex;
+    background-color: white;
+    position: absolute;
+    top: 80px;
+    left: 300px;
+    display: flex;
+    padding-left: 10px;
+    width: 1000px;
+    height: 500px;
+}

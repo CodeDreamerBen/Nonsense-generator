@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Nonsense Generator</title>
+	</head>
+	<body>
+		<h1 style="text-align: center;">I will change your proper sentence into nonsense! Just watch me!</h1>
+		<h2 style="text-decoration: underline; background-color: black; color: white; width: 100px; text-align: center;">Settings</p>
+		<h2>Number of paragraphs: <num id="num">1</num></h2>
+		<input id="numRangeValue" onchange="numRange()" style="width: 100px; height: 20px;" type="number" max="10" min="1" value="1">
+		<h2>Repeat length: <range id="range">1.5</range></h2>
+		<input id="rangeRangeValue" oninput="rangeRange()" type="range" max="20" min="0" value="15">
+		<div class="content">
+			<h2>Enter a proper sentence here.</h2>
+			<textarea id="text" style="position: relative; top: 55px; right: 300px; width: 300px; height: 420px; margin-right: -200px;" placeholder="Enter a proper sentence here."></textarea>
+			<button onclick="generate()" style="width: 150px; height: 100px; margin-right: 100px; font-size: 30px; background-color: lightgreen; position: relative; top: 10px;" type="submit">Generate nonsense</button>
+			<h2 style="position: relative; position: relative; left: 280px; margin-left: -250px;">Your nonsense will be here.</h2>
+			<textarea id="nonsense" style="width: 300px; height: 420px; position: relative; top: 55px;" placeholder="Your nonsense will be here."></textarea>
+		</div>
+	</body>
+</html>
